@@ -1,0 +1,122 @@
+{
+	"products" : 
+	[
+		{
+			"id" : "P0",
+			"title" : "Apple iPhone Xs",
+			"category_id" : "CAT0",
+			"retailer_id" : "C0",
+			"brand_id" : "C0",
+			"images" : 
+			["images/iphone-xs.jpg","images/iphone-xs-space-2.jpeg","images/iphone-xs-space.png"],
+			"prices" : 
+			[
+				{
+					"color" : "Gold",
+					"colorImage" : "images/finish-gold.jpeg",
+					"images" : ["images/iphone-xs-gold.png"],
+					"price" : "From $999"
+				},
+				{
+					"color" : "Space Gray",
+					"colorImage" : "images/finish-space-gray.jpeg",
+					"images" : ["images/iphone-xs-space.png"],
+					"price" : "From $1099"
+				},
+				{
+					"color" : "Silver",
+					"colorImage" : "images/finish-silver.jpeg",
+					"images" : ["images/iphone-xs-silver.png"],
+					"price" : "From $959"
+				}
+			],
+			"description" :
+			{
+				"overview" : "<h4>Display</h4><p>Super Retina. The beauty of OLED. On a whole new scale.</p><p>Custom-built OLED. The OLED panels in iPhone XS allow for an HDR display with the industry’s best color accuracy, true blacks, and remarkable brightness and contrast. They’re the sharpest displays, with the highest pixel density, on any Apple device.</p><h4>Face ID</h4><p>Your face is your password.</p><p>Security made simple. Face ID reinvented the way we unlock, log in, and pay. Some of our most sophisticated technologies — the TrueDepth camera system, the Secure Enclave, and the Neural Engine — make it the most secure facial authentication ever in a smartphone. And even faster and easier to use.</p><h4>Dual-camera system</h4><p>Say hello to a new era of photography.</p><p>Sensors, processors, algorithms, and you. An innovative dual-camera system integrates the ISP, the Neural Engine, and advanced algorithms to unlock new creative possibilities and help you capture incredible photos.</p>",
+				"highlights" : 
+				["<strong>Super Retina</strong> - The beauty of OLED. On a whole new scale.","<strong>Face ID</strong> - Your face is your password.","<strong>A12 Bionic</strong> - The smartest, most powerful chip in a smartphone.","<strong>Dual-camera system</strong> - Say hello to a new era of photography."],
+				"includedItems" : 
+				["iPhone with iOS 12","EarPods with Lightning Connector","Lightning to USB Cable","USB Power Adapter","Documentation"],
+				"techSpecs" : 
+				["AirPods","Wireless Charging Case","Lightning to USB Cable"]
+			},
+			"reviews" : 
+			[
+				{
+						"name" : "Jacob",
+						"rating" : 5,
+						"comment" : "Love this one from my memorise."
+				},
+				{
+						"name" : "Dave",
+						"rating" : 4,
+						"comment" : "It's working and the screen display is perfect for the gamers."
+				},
+				{
+						"name" : "Tom",
+						"rating" : 5,
+						"comment" : ""
+				},
+				{
+						"name" : "Vivian",
+						"rating" : 1,
+						"comment" : "It was broken."
+				},
+				{
+						"name" : "John",
+						"rating" : 3,
+						"comment" : ""
+				},
+				{
+						"name" : "Ryan",
+						"rating" : 5,
+						"comment" : "It's a perfect product ever."
+				}
+			],
+			"recommended":
+			[
+				{
+					"title" : "AirPods with Wireless Charging Case",
+					"image" : "images/airpod1.jpeg",
+					"price" : "From $199.00"
+				},
+				{
+					"title" : "Catalyst Waterproof Case for AirPods - Special Edition - White",
+					"image" : "images/airpod-case.jpeg",
+					"price" : "From $29.95"
+				},
+				{
+					"title" : "Belkin Boost Up Special Edition Wireless Charging Pad",
+					"image" : "images/wireless-charge.jpeg",
+					"price" : "From $59.95"
+				},
+				{
+					"title" : "iPhone Xs",
+					"image" : "images/iphone-xs.jpeg",
+					"price" : "From $699"
+				}
+			]
+		}
+	],
+	"companies" : 
+	[
+		{
+			"id" : "C0",
+			"name" : "Apple",
+			"logo": "images/apple_logo.svg",
+			"information" : "<p></p>",
+			"products_id" : 
+			[
+				"P0"
+			]
+		}
+	],
+	"categories" :
+	[
+		{
+			"id" : "CAT0",
+			"name" : "Accessories",
+			"url" : "/acessories"
+		}
+	]
+}
